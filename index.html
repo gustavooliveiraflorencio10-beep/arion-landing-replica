@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arion — A Jornada Começa | RPG Pixel Art</title>
+  <meta name="description" content="Explore Elyndra, um mundo de magia, mistério e missões épicas. Baixe Arion e comece sua jornada." />
+  <meta property="og:title" content="Arion — A Jornada Começa" />
+  <meta property="og:description" content="RPG indie pixel art com mundo aberto, magia e Lumina, uma IA que guia suas escolhas." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#inicio" class="logo">
+        <span class="logo-name gold-text">ARION</span>
+        <span class="logo-sub">A jornada começa</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#gameplay" class="nav-link">Gameplay</a>
+        <a href="#recursos" class="nav-link">Recursos</a>
+        <a href="#galeria" class="nav-link">Galeria</a>
+        <a href="#download" class="nav-link">Download</a>
+      </nav>
+      <div class="nav-social">
+        <a href="#" aria-label="Discord">◈</a>
+        <a href="#" aria-label="Instagram">◉</a>
+        <a href="#" aria-label="YouTube">▶</a>
+      </div>
+    </div>
+    <div class="gold-divider-line"></div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section id="inicio" class="hero">
+      <div class="particles" aria-hidden="true"></div>
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1 class="hero-title gold-text">ARION</h1>
+          <p class="hero-subtitle">Embarque numa jornada épica em um mundo de magia, mistério e aventura.</p>
+          <div class="hero-cta">
+            <button class="btn-gold">▶ Jogar Agora</button>
+            <button class="btn-magic">⬇ Download</button>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="images/hero-scene.png" alt="Cena heroica de Arion" class="pixel float-slow" />
+        </div>
+      </div>
+      <div class="gold-divider"><span>✦</span></div>
+    </section>
+
+    <!-- ===== STORY ===== -->
+    <section id="sobre" class="story">
+      <div class="parchment ornate-panel story-panel">
+        <div class="story-grid">
+          <div class="story-art">
+            <img src="images/arion-portrait.png" alt="Retrato de Arion" class="pixel" />
+            <img src="images/lumina-star.png" alt="Estrela Lumina" class="pixel lumina pulse-glow" />
+          </div>
+          <div class="story-text">
+            <h2>A Lenda de Arion</h2>
+            <p>Em uma terra distante chamada <strong>Elyndra</strong>, sombras antigas despertam. Arion, um jovem aprendiz, descobre que o destino do reino repousa em suas mãos.</p>
+            <p>Guiado por <strong>Lumina</strong>, uma estrela mística que sussurra os segredos do mundo, ele parte numa jornada para reacender a luz que se apagou.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section id="recursos" class="features">
+      <h2 class="section-title gold-text">Recursos do Jogo</h2>
+      <div class="features-grid">
+        <div class="feature-card"><img src="images/icon-swords.png" alt="" class="pixel"><h3>Combate Épico</h3><p>Batalhas dinâmicas em pixel art.</p></div>
+        <div class="feature-card"><img src="images/icon-map.png" alt="" class="pixel"><h3>Mundo Aberto</h3><p>Explore Elyndra livremente.</p></div>
+        <div class="feature-card"><img src="images/icon-character.png" alt="" class="pixel"><h3>Personagens</h3><p>Crie e evolua seu herói.</p></div>
+        <div class="feature-card"><img src="images/icon-spellbook.png" alt="" class="pixel"><h3>Magias</h3><p>Domine feitiços ancestrais.</p></div>
+        <div class="feature-card"><img src="images/lumina-star.png" alt="" class="pixel"><h3>Lumina IA</h3><p>Uma guia que adapta sua jornada.</p></div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section id="galeria" class="gallery">
+      <h2 class="section-title gold-text">Galeria</h2>
+      <div class="gallery-scroll" id="galleryScroll">
+        <div class="gallery-frame"><img src="images/gallery-1.png" alt=""></div>
+        <div class="gallery-frame"><img src="images/gallery-2.png" alt=""></div>
+        <div class="gallery-frame"><img src="images/gallery-3.png" alt=""></div>
+        <div class="gallery-frame"><img src="images/gallery-4.png" alt=""></div>
+        <div class="gallery-frame"><img src="images/gallery-5.png" alt=""></div>
+      </div>
+      <div class="gallery-controls">
+        <button class="btn-gold" data-scroll="-1">‹</button>
+        <button class="btn-gold" data-scroll="1">›</button>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section id="download" class="cta">
+      <div class="cta-panel ornate-panel">
+        <img src="images/cta-background.jpg" alt="" class="cta-bg">
+        <div class="cta-overlay"></div>
+        <div class="cta-content">
+          <div>
+            <h2 class="gold-text">Pronto para sua aventura?</h2>
+            <p>Baixe agora e embarque nessa jornada inesquecível!</p>
+            <div class="cta-buttons">
+              <button class="btn-gold">▶ Google Play</button>
+              <button class="btn-gold"> App Store</button>
+            </div>
+          </div>
+          <img src="images/mage.png" alt="Mago" class="pixel float-slow cta-mage">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="gold-text logo-name">ARION</span>
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#download">Download</a>
+      </nav>
+      <p>© 2026 Arion. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
